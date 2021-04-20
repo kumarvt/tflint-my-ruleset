@@ -1,5 +1,5 @@
 # TFLint Ruleset Template
-[![Build Status](https://github.com/terraform-linters/tflint-ruleset-template/workflows/build/badge.svg?branch=master)](https://github.com/terraform-linters/tflint-ruleset-template/actions)
+[![Build Status](https://github.com/terraform-linters/tflint-ruleset-custom/workflows/build/badge.svg?branch=master)](https://github.com/terraform-linters/tflint-ruleset-custom/actions)
 
 This is a template repository for building a custom ruleset. You can create a plugin repository from "Use this template".
 
@@ -10,10 +10,10 @@ This is a template repository for building a custom ruleset. You can create a pl
 
 ## Installation
 
-Download the plugin and place it in `~/.tflint.d/plugins/tflint-ruleset-template` (or `./.tflint.d/plugins/tflint-ruleset-template`). When using the plugin, configure as follows in `.tflint.hcl`:
+Download the plugin and place it in `~/.tflint.d/plugins/tflint-ruleset-custom` (or `./.tflint.d/plugins/tflint-ruleset-custom`). When using the plugin, configure as follows in `.tflint.hcl`:
 
 ```hcl
-plugin "template" {
+plugin "custom" {
     enabled = true
 }
 ```
